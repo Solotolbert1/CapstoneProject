@@ -1,0 +1,22 @@
+*{
+   viewport-fit: 1vh; 
+}
+
+#navigation{
+    display: flex;
+    justify-content: center ;
+    }
+}
+
+header{
+    background-color: olivedrab;
+    display: flex;
+    justify-content:center;
+
+}
+
+
+#aboutUs{
+    background-color: olivedrab;
+}
+
