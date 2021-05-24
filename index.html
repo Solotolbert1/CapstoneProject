@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel ="stylesheet" href ="styles.css">
+    <link rel ="stylesheet" href ="styles.css"/>
     <link 
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
   rel="stylesheet"/>
@@ -13,45 +13,58 @@
 </head>
 <body>
     <header class = "Intro Statement" id = "Home">Welcome and Thank you for your Time </header>
-    <!-- <div class = "image-slider frame">
-        <div class = "image-slides">
-            <div class = "img-container">
-                <img src = "">
-            </div>
-            <div class = "img-container">
-                 <img src = "">
-            </div>
-            <div class = "img-container">
-                 <img src = "">
-            </div>
-         
-        </div>
-     
-      
-    </div> -->
-    <nav id = "navigation">
-        
-        <ul>
-            <li><a href = "#Home">Home</a></li>
-            <li><a href = "#Services">Services</a></li>
-            <li> <a href = "#aboutUs">About us</a> </li>
-            <li><a href = "#PackageDeals">Packages</a></li>
+      <div class="containerSlideShow">  
+        <div class="showSlide fade">  
+            <img src="C:\Users\Raheem\Downloads\IMG_1733.jpg" />  
+            <div class="image"></div>  
+        </div>  
+        <!-- <div class="showSlideFade">  
+            <img src=""/>  
+            <div class="image"></div>  
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img src=""/>  
+            <div class="image"></div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src=""/>  
+            <div class="content"></div>  
+        </div>   -->
+       <!-- Navigation arrows --> 
+        <a class="leftArrow" onclick="nextSlide(-1)">❮</a>  
+        <a class="rightArrow" onclick="nextSlide(1)">❯</a>  
+    </div>  
+    <section>
+    <nav class = "navBar">
+        <i class= "fas fa-bars"></i>
+        <script></script>
+        <ul class = "hidden-mobile">
+
+            <li class = "Home"><a href = "#Home">Home</a></li>
+            <li class = "Serv"><a href = "#Services">Services</a></li>
+            <li class = "Package"><a href = "#PackageDeals">Packages</a></li>
+            <li class = "aboutUs"> <a href = "#aboutUs">About us</a> </li>
+            
 
         </ul>
     </nav>
-    <h3 class = "" id = "Services"> Services</h3>
-        <ul>
-            <li>Photography</li>
-            <li>Videography</li>
-            <li>Services</li>
-            <li>Package <a>deals</a> </li>
+</section>
+   <div >
+    <h3 id = "Services"> Services</h3>
+        <ul class = "list2">
+            <li class = "Photography1">Photography</li>
+            <li class = " Videography1">Videography</li>
+            <li class = "Services1">Services</li>
+            <li class = "Packages1">Package <a>deals</a> </li>
 
         </ul>
     </div>
+    </div>
 
-   <h3 class = "packages"  id = "packageDeals">Packages</h3>
+   <h3 id = "packageDeals">Packages</h3>
     <div class = "packages">
-        <ul>
+        <ul class = "list3">
             <li>Basic Package<p>&emsp;<i>This is the basic package includes ...</i></p></li>
             <li>Intermediate package<p>&emsp;<i>This the intermediate package includes...</i></p></li>
             <li>Advanced Package<p>&emsp; <i>This is the advanced package, it includes ...</i></p></li>
@@ -59,11 +72,12 @@
         </ul>
     </div>
  
-   <div class = "aboutUs">
-       <h3 class = "" id = "aboutUs"> About us</h3>
-   </div>
-   <footer class = "">
+   <div class = "">
+       <h3 id = "aboutUs"> About us</h3>
+   
+   <footer class = "footer" >
     <p>With a strong start in photography, we have expanded into videography and services to provide opportunities to look back on precious moments and memories, grab hold of the feelings those moments provided. </p>
    </footer>
+</div>
 </body>
 </html>

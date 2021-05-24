@@ -1,22 +1,69 @@
-*{
-   viewport-fit: 1vh; 
+ html {
+   background-color: olivedrab; 
+    
 }
 
-#navigation{
-    display: flex;
-    justify-content: center ;
-    }
+ header{
+   background-color: red;
+     
+ }
+
+ .containerSlidshow{
+    outline: 5px dotted;
+    width:auto;
+    height:auto;
+
+ }
+ 
+img{
+   margin-left: 50%;
+   left: px;
+   
 }
 
-header{
-    background-color: olivedrab;
-    display: flex;
-    justify-content:center;
+ .leftArrow{
+    background-color: green;
+    color: orange;
+    margin-left: 42%;
+ }
+ .rightArrow{
+    background-color: orange;
+    color: green;
+    margin-left: 100px;
+ }
 
-}
+ 
+
+ .hidden-mobile{
+    background-color: darksalmon;
+ }
+ @media (min-width: 550px) {
+   nav > .fa-bars {
+     display: none;
+   }
+ }
 
 
-#aboutUs{
-    background-color: olivedrab;
-}
+ #Services{
+    background-color: blue;
+ }
 
+ .list2{
+    background-color:blueviolet;
+ }
+
+  #packageDeals{
+    background-color:brown;
+ }
+
+ .list3{
+    background-color:cyan;
+ }
+
+ #aboutUs{
+    background-color:darkgoldenrod;
+ }
+
+ .footer{
+    background-color:darkred;
+ }
